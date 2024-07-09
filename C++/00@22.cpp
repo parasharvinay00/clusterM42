@@ -1,17 +1,17 @@
-//implement a simple calculator using switch
-// functions o functions of for for functions or functions and functions , crafting , fabrication and coordination functions
+// implement a simple calculator using switch
+//  functions o functions of for for functions or functions and functions , crafting , fabrication and coordination functions
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    float n1,n2;
-    cout<<"Input 2 numbers:";
-    cin>>n1>>n2;
+    float n1, n2;
+    cout << "Input 2 numbers:";
+    cin >> n1 >> n2;
 
     char op;
-    cout<<"input an operator";
-    cin>>op;
+    cout << "input an operator";
+    cin >> op;
 
     switch (op)
     {
@@ -24,13 +24,13 @@ int main()
     case '*':
         cout << n1 * n2 << endl;
         break;
-    case'/':
+    case '/':
         cout << n1 / n2 << endl;
         break;
 
     default:
         cout << "Enter another operator" << endl;
-        break;      
+        break;
     }
 
     return 0;
