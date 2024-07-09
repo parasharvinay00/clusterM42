@@ -1,3 +1,3 @@
 # clusterM42
 
-Tree is a software
+Tree is a software. Amazing.
