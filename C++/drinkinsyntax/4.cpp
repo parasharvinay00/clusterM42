@@ -3,7 +3,6 @@
 namespace First
 {
     namespace Nested
-
     {
         void foo()
         {
@@ -28,6 +27,9 @@ void foo()
 {
     printf("This is global foo\n");
 }
+
+/// /////////////////////////////////////////////////////////////////
+
 int main()
 {
     // Includes all symbols from namespace Second into the current scope. Note
